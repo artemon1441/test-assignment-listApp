@@ -41,6 +41,7 @@ function App() {
   }
 
   function sendHandler(e: any){
+    setHeader('Список пользователей')
     console.log(newData);
     let id = newData.id
     dataList[id].name = newData.name
